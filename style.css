@@ -19,6 +19,9 @@ h1 {
 p{
     color: #94002a;
 }
+hr{
+    border: dashed #e97b9a 1px;
+}
 .content{
     max-width: 600px;height: fit-content;
     background-color: #fdfdff;
@@ -32,4 +35,8 @@ p{
 a{
     color: #f7a4b9;
     text-decoration: none;
+}
+a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #f79cb3;
 }
