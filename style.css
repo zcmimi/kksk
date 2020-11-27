@@ -16,7 +16,7 @@ body{
 h1 {
     color: #f79cb3;
 }
-p{
+p,li{
     color: #94002a;
 }
 hr{
@@ -34,9 +34,9 @@ hr{
 }
 a{
     color: #da2c58;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 a:hover{
-    text-decoration-line: underline;
-    text-decoration-color: #f79cb3;
+    color: #ff3366;
+    font-weight: 600;
 }
